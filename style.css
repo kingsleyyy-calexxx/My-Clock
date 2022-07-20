@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+/* ANALOG */
+#clock {
+    position: relative;
+    margin: auto;
+    height: 40vw;
+    /*to make the height and width responsive*/
+    width: 40vw;
+    background: url(./assets/bg1.jpg) no-repeat;
+    /*setting our background image*/
+    background-size: 100%;
+    margin-top: 50px;
+    border-radius: 300px;
+    margin-left: 35%;
+    /* border-radius: 60px; -moz-border-radius: 60px; -webkit-border-radius: 60px; */
+    /* background-color: aqua; */
+    
+   
+  }
+  
+  #hour,
+  #minute,
+  #second {
+    position: absolute;
+    background: black;
+    border-radius: 10px;
+    transform-origin: bottom;
+  }
+  #text{
+    font-size: 2em;
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    margin-top: -100px;
+    color: rgb(41, 171, 210);
+    padding: 100px;
+
+  }
+#hour {
+    width: 1.8%;
+    height: 25%;
+    top: 25%;
+    left: 48.85%;
+    opacity: 0.8;
+}
+  
+  #minute {
+    width: 1.6%;
+    height: 30%;
+    top: 19%;
+    left: 48.9%;
+    opacity: 0.8;
+  }
+  
+  #second {
+    width: 1%;
+    height: 40%;
+    top: 9%;
+    left: 49.25%;
+    opacity: 0.8;
+   
+  }
+
+/* digital clock */
+
+  #time {
+    font-size: 175px;
+    width: 900px;
+    margin: 200px;
+    text-align: center;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 20px;
+    margin-top: 50px;
+    margin-left: 300px;
+  }
+    #toggleButton{
+      color: rgb(255, 255, 255);
+      width: 12vw;
+      height: 6vh;
+      margin-left: 50%;
+      background-color: black;
+    }
+  #center-point{
+    font-size: 20em;
+    text-align: center;
+  }
+  #date{
+    margin-left: 752px;
+    font-size: 2em;
+    font-family: 'Secular One', sans-serif;
+    margin-top: 250px;
+  }
+  #setup{
+    text-align: center;
+    margin-right: 50px;
+    margin-top: -40px;
+    margin-left: -50px;
+    font-family: 'Bebas Neue', cursive;
+  }
